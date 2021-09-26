@@ -19,4 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/zh/guide/deployment.html#github-pages).
 
 ### Project Deployment Address
-See [gh-pages branch](https://dragon-liu.github.io/todoList-final-version/)
+See [here](https://dragon-liu.github.io/todoList-final-version/)
