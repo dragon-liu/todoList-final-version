@@ -42,7 +42,8 @@
 			},
 			//编辑
 			handleEdit(todo){
-				if(todo.hasOwnProperty('isEdit')){
+				//NOTE:用对象原型上的方法以免导致错误和安全隐患,参考:https://cn.eslint.org/docs/rules/no-prototype-builtins
+				if(Object.prototype.hasOwnProperty.call(todo, 'isEdit')){
 					todo.isEdit = true
 				}else{
 					// console.log('@')
